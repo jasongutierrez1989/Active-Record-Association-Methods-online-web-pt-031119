@@ -11,6 +11,6 @@ class Song < ActiveRecord::Base
   end
 
   def all_artist_names
-    self.artists.name
+    self.artist.name
   end
 end
